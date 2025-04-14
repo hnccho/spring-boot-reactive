@@ -30,6 +30,18 @@
 			<groupId>org.mongodb</groupId>
 			<artifactId>mongodb-driver-sync</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.java.dev.jna/jna -->
+		<dependency>
+    		<groupId>net.java.dev.jna</groupId>
+    		<artifactId>jna</artifactId>
+    		<version>4.5.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.java.dev.jna/jna-platform -->
+		<dependency>
+		    <groupId>net.java.dev.jna</groupId>
+		    <artifactId>jna-platform</artifactId>
+		    <version>4.5.2</version>
+		</dependency>        
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
